@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/1.png</file>
+        <file>images/2.png</file>
+        <file>images/about.png</file>
+        <file>images/connect.png</file>
+        <file>images/copy.png</file>
+        <file>images/cut.png</file>
+        <file>images/disconnect .png</file>
+        <file>images/download.png</file>
+        <file>images/exit.png</file>
+        <file>images/furuilog.png</file>
+        <file>images/logo1.png</file>
+        <file>images/new.png</file>
+        <file>images/next.png</file>
+        <file>images/open.png</file>
+        <file>images/paste.png</file>
+        <file>images/previous.png</file>
+        <file>images/prot2.png</file>
+        <file>images/redo.png</file>
+        <file>images/save.png</file>
+        <file>images/saveAs.png</file>
+        <file>images/upload.png</file>
+        <file>images/AI.png</file>
+        <file>images/switch.png</file>
+        <file>images/DO.png</file>
+        <file>images/other.png</file>
+        <file>images/closefile.png</file>
+        <file>images/openfile.png</file>
+        <file>images/furuiselogo.png</file>
+        <file>images/clear2.png</file>
+    </qresource>
+</RCC>
