@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SubProjectNameTable</class>
+ <widget class="QDialog" name="SubProjectNameTable">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>921</width>
+    <height>674</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <family>隶书</family>
+         <pointsize>18</pointsize>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;分项名列表&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTabWidget" name="tabWidget">
+       <property name="currentIndex">
+        <number>5</number>
+       </property>
+       <widget class="QWidget" name="aiTab">
+        <attribute name="title">
+         <string>模拟量输入</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0">
+          <widget class="QTableView" name="aiTableView"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="diTab">
+        <attribute name="title">
+         <string>数字量输入</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="0" column="0">
+          <widget class="QTableView" name="diTableView"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="doTab">
+        <attribute name="title">
+         <string>数字量输出</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_4">
+         <item row="0" column="0">
+          <widget class="QTableView" name="doTableView"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="serialTab">
+        <attribute name="title">
+         <string>串口</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_8">
+         <item row="0" column="0">
+          <widget class="QTableView" name="serialTableView"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="manufactureTab">
+        <attribute name="title">
+         <string>流量计厂家</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_5">
+         <item row="0" column="0">
+          <widget class="QTableView" name="manufactTableView"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="com_protoTable">
+        <attribute name="title">
+         <string>与中心通信协议</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_6">
+         <item row="0" column="0">
+          <widget class="QTableView" name="commprotoTableView"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="com_wayTable">
+        <attribute name="title">
+         <string>与中心通信方式</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_7">
+         <item row="0" column="0">
+          <widget class="QTableView" name="commwaytableView"/>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="confirmButton">
+         <property name="text">
+          <string>确定</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="cancelButton">
+         <property name="text">
+          <string>取消</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

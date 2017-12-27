@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>fildesTable</class>
+ <widget class="QDialog" name="fildesTable">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>732</width>
+    <height>590</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>                                                     分项名列表</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="aiTab">
+      <attribute name="title">
+       <string>模拟量输入</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="diTab">
+      <attribute name="title">
+       <string>数字量输入</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="doTab">
+      <attribute name="title">
+       <string>数字量输出</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="serialTab">
+      <attribute name="title">
+       <string>串口</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="manufactureTab">
+      <attribute name="title">
+       <string>流量计厂家</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="com_protoTable">
+      <attribute name="title">
+       <string>与中心通信协议</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="com_wayTable">
+      <attribute name="title">
+       <string>与中心通信方式</string>
+      </attribute>
+     </widget>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="confirmButton">
+       <property name="text">
+        <string>确定</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="cancelButton">
+       <property name="text">
+        <string>取消</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
